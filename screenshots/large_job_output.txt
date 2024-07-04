@@ -1,0 +1,89 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/lib/hadoop/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/tmp/job-a5d443d8/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Reload4jLoggerFactory]
+2024-07-04 04:43:28,386 INFO impl.MetricsConfig: Loaded properties from hadoop-metrics2.properties
+2024-07-04 04:43:28,532 INFO impl.MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+2024-07-04 04:43:28,532 INFO impl.MetricsSystemImpl: google-hadoop-file-system metrics system started
+2024-07-04 04:43:28,935 INFO client.DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at cluster-d3be-m.us-central1-a.c.assignment-1-426907.internal./10.128.0.13:8032
+2024-07-04 04:43:29,164 INFO client.AHSProxy: Connecting to Application History server at cluster-d3be-m.us-central1-a.c.assignment-1-426907.internal./10.128.0.13:10200
+2024-07-04 04:43:30,697 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-07-04 04:43:30,716 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1720048209789_0006
+2024-07-04 04:43:31,334 INFO input.FileInputFormat: Total input files to process : 1
+2024-07-04 04:43:31,417 INFO mapreduce.JobSubmitter: number of splits:71
+2024-07-04 04:43:31,724 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1720048209789_0006
+2024-07-04 04:43:31,724 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-07-04 04:43:31,980 INFO conf.Configuration: resource-types.xml not found
+2024-07-04 04:43:31,981 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2024-07-04 04:43:32,089 INFO impl.YarnClientImpl: Submitted application application_1720048209789_0006
+2024-07-04 04:43:32,146 INFO mapreduce.Job: The url to track the job: http://cluster-d3be-m.us-central1-a.c.assignment-1-426907.internal.:8088/proxy/application_1720048209789_0006/
+2024-07-04 04:43:32,147 INFO mapreduce.Job: Running job: job_1720048209789_0006
+2024-07-04 04:43:44,346 INFO mapreduce.Job: Job job_1720048209789_0006 running in uber mode : false
+2024-07-04 04:43:44,347 INFO mapreduce.Job:  map 0% reduce 0%
+2024-07-04 04:44:10,527 INFO mapreduce.Job:  map 1% reduce 0%
+2024-07-04 04:44:27,618 INFO mapreduce.Job:  map 2% reduce 0%
+2024-07-04 04:44:39,691 INFO mapreduce.Job:  map 3% reduce 0%
+2024-07-04 04:44:53,763 INFO mapreduce.Job:  map 4% reduce 0%
+2024-07-04 04:44:54,767 INFO mapreduce.Job:  map 5% reduce 0%
+2024-07-04 04:45:12,848 INFO mapreduce.Job:  map 6% reduce 0%
+2024-07-04 04:45:30,930 INFO mapreduce.Job:  map 7% reduce 0%
+2024-07-04 04:45:48,012 INFO mapreduce.Job:  map 8% reduce 0%
+2024-07-04 04:45:54,043 INFO mapreduce.Job:  map 9% reduce 0%
+2024-07-04 04:46:03,086 INFO mapreduce.Job:  map 10% reduce 0%
+2024-07-04 04:46:25,177 INFO mapreduce.Job:  map 11% reduce 0%
+2024-07-04 04:46:35,211 INFO mapreduce.Job:  map 12% reduce 0%
+2024-07-04 04:46:53,284 INFO mapreduce.Job:  map 13% reduce 0%
+2024-07-04 04:47:07,336 INFO mapreduce.Job:  map 14% reduce 0%
+2024-07-04 04:47:11,350 INFO mapreduce.Job:  map 15% reduce 0%
+2024-07-04 04:47:31,422 INFO mapreduce.Job:  map 16% reduce 0%
+2024-07-04 04:47:45,472 INFO mapreduce.Job:  map 17% reduce 0%
+2024-07-04 04:47:59,516 INFO mapreduce.Job:  map 18% reduce 0%
+2024-07-04 04:48:13,570 INFO mapreduce.Job:  map 19% reduce 0%
+2024-07-04 04:48:18,586 INFO mapreduce.Job:  map 20% reduce 0%
+2024-07-04 04:48:35,634 INFO mapreduce.Job:  map 21% reduce 0%
+2024-07-04 04:48:46,669 INFO mapreduce.Job:  map 22% reduce 0%
+2024-07-04 04:49:04,726 INFO mapreduce.Job:  map 23% reduce 0%
+2024-07-04 04:49:20,775 INFO mapreduce.Job:  map 24% reduce 0%
+2024-07-04 04:49:23,788 INFO mapreduce.Job:  map 25% reduce 0%
+2024-07-04 04:49:39,833 INFO mapreduce.Job:  map 26% reduce 0%
+2024-07-04 04:49:57,884 INFO mapreduce.Job:  map 27% reduce 0%
+2024-07-04 04:50:03,901 INFO mapreduce.Job:  map 28% reduce 0%
+2024-07-04 04:50:22,964 INFO mapreduce.Job:  map 29% reduce 0%
+2024-07-04 04:50:31,990 INFO mapreduce.Job:  map 30% reduce 0%
+2024-07-04 04:50:44,023 INFO mapreduce.Job:  map 31% reduce 0%
+2024-07-04 04:51:02,075 INFO mapreduce.Job:  map 32% reduce 0%
+2024-07-04 04:51:18,123 INFO mapreduce.Job:  map 33% reduce 0%
+2024-07-04 04:51:25,141 INFO mapreduce.Job:  map 34% reduce 0%
+2024-07-04 04:51:39,181 INFO mapreduce.Job:  map 35% reduce 0%
+2024-07-04 04:51:48,204 INFO mapreduce.Job:  map 36% reduce 0%
+2024-07-04 04:52:06,262 INFO mapreduce.Job:  map 37% reduce 0%
+2024-07-04 04:52:23,311 INFO mapreduce.Job:  map 38% reduce 0%
+2024-07-04 04:52:35,343 INFO mapreduce.Job:  map 39% reduce 0%
+2024-07-04 04:52:46,371 INFO mapreduce.Job:  map 40% reduce 0%
+2024-07-04 04:52:47,374 INFO mapreduce.Job:  map 41% reduce 0%
+2024-07-04 04:53:14,455 INFO mapreduce.Job:  map 42% reduce 0%
+2024-07-04 04:53:28,493 INFO mapreduce.Job:  map 43% reduce 0%
+2024-07-04 04:53:39,520 INFO mapreduce.Job:  map 44% reduce 0%
+2024-07-04 04:53:50,546 INFO mapreduce.Job:  map 45% reduce 0%
+2024-07-04 04:53:58,566 INFO mapreduce.Job:  map 46% reduce 0%
+2024-07-04 04:54:10,595 INFO mapreduce.Job:  map 47% reduce 0%
+2024-07-04 04:54:34,652 INFO mapreduce.Job:  map 48% reduce 0%
+2024-07-04 04:54:47,683 INFO mapreduce.Job:  map 49% reduce 0%
+2024-07-04 04:54:55,706 INFO mapreduce.Job:  map 50% reduce 0%
+2024-07-04 04:55:03,731 INFO mapreduce.Job:  map 51% reduce 0%
+2024-07-04 04:55:24,785 INFO mapreduce.Job:  map 52% reduce 0%
+2024-07-04 04:55:34,811 INFO mapreduce.Job:  map 53% reduce 0%
+2024-07-04 04:55:52,855 INFO mapreduce.Job:  map 54% reduce 0%
+2024-07-04 04:56:06,890 INFO mapreduce.Job:  map 55% reduce 0%
+2024-07-04 04:56:07,895 INFO mapreduce.Job:  map 56% reduce 0%
+2024-07-04 04:56:29,957 INFO mapreduce.Job:  map 57% reduce 0%
+2024-07-04 04:56:45,996 INFO mapreduce.Job:  map 58% reduce 0%
+2024-07-04 04:56:58,028 INFO mapreduce.Job:  map 59% reduce 0%
+2024-07-04 04:57:12,062 INFO mapreduce.Job:  map 60% reduce 0%
+2024-07-04 04:57:15,072 INFO mapreduce.Job:  map 61% reduce 0%
+2024-07-04 04:57:38,124 INFO mapreduce.Job:  map 62% reduce 0%
+2024-07-04 04:57:49,151 INFO mapreduce.Job:  map 63% reduce 0%
+2024-07-04 04:58:07,195 INFO mapreduce.Job:  map 64% reduce 0%
+2024-07-04 04:58:20,224 INFO mapreduce.Job:  map 65% reduce 0%
+2024-07-04 04:58:22,231 INFO mapreduce.Job:  map 66% reduce 0%
